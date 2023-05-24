@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Размеры остаются как были указаны изначально*/
+}
+main {
+  display: flex;
+}
+header {
+    background-color: aliceblue;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+}
+main {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(172, 164, 165);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px 1px black;
+  /* height: 100vh;   Высота экрана */
+}
+.item {
+  width: calc(33% - 20px);
+  height: 200px;
+  background-color: rgb(121, 37, 100);
+  margin: 10px;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  transition: 1s;/* отменяем повторение*/
+  /* картинка занимает всю ширину блока, по высоте 
+  contain - картинка занимает всю высобу блока, а по ширине масштабируется*/
+ }
+
+ .item:hover {
+    transform: scale(1.1)  rotate(-360deg); /*Псевдокласс, для увеличения картинки */
+ }
+.item-1 {
+    background-image: url(./img/1.jpg);
+    
+}
+.item-2 {
+    background-image: url(./img/2.jpg);
+    
+}
+.item-3 {
+    background-image: url(./img/3.jpg);
+    
+}
+.item-4 {
+    background-image: url(./img/4.jpg);
+    
+}
+.item-5 {
+    background-image: url(./img/5.jpg);
+    
+}
+.item-6 {
+    background-image: url(./img/6.jpg);
+    
+}
+.item-7 {
+    background-image: url(./img/7.jpg);
+    
+}
+.item-8 {
+    background-image: url(./img/8.jpg);
+    
+}

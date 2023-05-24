@@ -1,0 +1,45 @@
+h1 {
+  font-size: 40px;
+  color: rgb(165, 21, 21);
+  text-align: center;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+img {
+  width: 500px;
+  margin-bottom: 30px;
+}
+
+div {
+  background-color: rgb(236, 232, 232);
+  padding: 30px;
+  border: 3px solid red;
+  border-radius: 10px;
+}
+
+p {
+  font-size: 22px;
+}
+
+.post-1 {
+  margin-bottom: 50px;
+}
+
+
+/*селектор{
+  свойство: значение свойства
+}
+селектор - выбор элемента из html
+margin - внешний отступ 
+border: размер, тип, цвет 
+селектор:
+      1. по названию тега h1 {} div {}
+      2. по классу - .className, .post-1...... Нужно ставить точку 
+padding - внутренний отступ 
+
+
+
+*/

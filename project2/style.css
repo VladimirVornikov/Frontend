@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+}
+ul {
+    list-style-type: upper-roman;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.laptop-table {
+    margin-top: 50px;
+}
+.sum {
+    color: red;
+}
+
+.grey {
+    background-color: grey;
+}
+
+figure {
+    border: 10px solid blue;
+    aspect-ratio: 1;
+       /* Отношение сторон */
+    width: 500px;
+    
+}
